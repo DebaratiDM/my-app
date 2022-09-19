@@ -1,7 +1,7 @@
 import React from "react";
 
 export const Banner = (props) => {
-  const { banner, title, desc } = props;
+  const { banner, title, desc,adddesc} = props;
   return (
     <header className="masthead" style={{ backgroundImage: `url(${banner})` }}>
       <div className="container position-relative px-4 px-lg-5">
@@ -10,6 +10,7 @@ export const Banner = (props) => {
             <div className="page-heading">
               <h1>{title}</h1>
               <span className="subheading">{desc}</span>
+              <span className="addhead">{adddesc}</span>
             </div>
           </div>
         </div>

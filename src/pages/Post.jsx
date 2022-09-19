@@ -6,10 +6,8 @@ export const Post = () => {
       <Banner
         banner={"assets/img/about-bg.jpg"}
         title="Man must explore, and this is exploration at its greatest"
-        desc="Problems look mighty small from 150 miles up
-        Posted by
-        Start Bootstrap
-        on August 24, 2022"
+        desc="Problems look mighty small from 150 miles up"
+        adddesc="Posted by Start Bootstrap on August 24, 2022"
       />
       <article className="mb-4">
         <div className="container px-4 px-lg-5">
